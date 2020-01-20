@@ -10,6 +10,5 @@ import lombok.NoArgsConstructor;
 public class Node<E>{
     private Node<E> next;
     private Node<E> prior;
-    private Object data;
-
+    private E data;
 }

@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
+
         String source;
 
         Scanner input = new Scanner(System.in);

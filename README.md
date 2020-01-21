@@ -6,7 +6,9 @@ Este proyecto tiene como objetivo, la implementación de una aplicación en java
 
 Para descargar este proyecto en algún directorio local, empezamos abriendo un ventana de consola y escribimos:
 
-´´´$ git clone https://github.com/migue1994/TallerMVNGIT.git´´´
+``` $ git clone https://github.com/migue1994/TallerMVNGIT.git ```
+
+
 
 ## Prerequisitos
 
@@ -16,5 +18,12 @@ Para empezar, debemos asegurarnos que tenemos las herramientas necesarias para p
 - [Apache Maven](https://howtodoinjava.com/maven/how-to-install-maven-on-windows/)
 - [Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
 
+## Ejecutar el proyecto.
+
+Una vez que hayamos descargado nuestro proyecto, abrimos una cmd y accedemos al directorio donde esta el proyecto, una vez allí, ejecutamos el siguiente comando:
+
+``` $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.ASE.app.App" ```
+
+Una vez se haya ejecutado el comando, se compilará el proyecto y nos dirá que necesita un path, en el cual se encuentran los datos
 
 

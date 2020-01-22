@@ -6,7 +6,10 @@ import java.util.List;
 import java.util.ListIterator;
 
 import lombok.Data;
-
+/**
+ * Implementa la interface List, que a su vez es un tipo de colección, se encarga de almacenar objetos de cualquier tipo
+ * @param <E> Parámetro que denota que es una clase genérica, este puede ser cualquier objeto o tipo primitivo
+ */
 @Data
 @SuppressWarnings("unchecked")
 public class LinkedList<E> implements List {
@@ -159,13 +162,31 @@ public class LinkedList<E> implements List {
         return null;
     }
 
+    /**
+     * Asigna el siguiente nodo en la LinkedList al nodo actual, en caso de que el actual no sea el último de la lista
+     * @return Devuelve el nodo actual actualizado
+     */
     public Node<E> nextNode(){
-        this.currentNode = currentNode.getNext();
+
+        try{
+            this.currentNode = currentNode.getNext();
+        }catch(NullPointerException e){
+            System.out.println("NullPointerException Caught");
+        }
         return this.currentNode;
     }
 
+    /**
+     * Asigna el nodo anterior al nodo actual, en caso de que el nodo actual no sea el primero de la lista
+     * @return Devuelve el nodo actual actualizado
+     */
     public Node<E> priorNode(){
-        this.currentNode = this.currentNode.getPrior();
+        try{
+            this.currentNode = this.currentNode.getPrior();
+        }catch(NullPointerException e){
+            System.out.println("NullPointerException Caught");
+        }
+
         return this.currentNode;
     }
 

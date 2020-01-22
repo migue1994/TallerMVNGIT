@@ -49,3 +49,13 @@ Considero que estas pruebas son suficientes, ya que la ejecución de cada una us
 # Licencia:
 
 [LICENSE.txt](LICENSE.txt)
+
+# Documentación
+
+La documentación del proyecto la encontrará [aquí](target/site/apidocs/allclasses-frame.html).
+
+Si desea generar la documentación nuevamente, solo deberá escribir el siguiente comando desde la consola cmd:
+
+``` $ mvn javadoc:javadoc```
+
+Esto le generará una documentación, que se ubica por defecto en `target\site\apidocs` desde allí podrá abrir el tipo de documentación que quiere revisar de forma directa en el navegador.

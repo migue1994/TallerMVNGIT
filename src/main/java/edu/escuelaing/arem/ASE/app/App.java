@@ -9,7 +9,7 @@ public class App {
 
     /**
      * Método principal, presenta un pequeño menú al usuario y los resultados de la media y desviación estandar
-     * @param args
+     * @param args Arguments
      */
     public static void main(String[] args) {
         Program program = new Program();

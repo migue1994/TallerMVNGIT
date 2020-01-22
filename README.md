@@ -52,7 +52,7 @@ Considero que estas pruebas son suficientes, ya que la ejecución de cada una us
 
 # Documentación
 
-La documentación del proyecto la encontrará [aquí](target/site/apidocs/allclasses-frame.html).
+La documentación del proyecto la encontrará [aquí](target/site/apidocs).
 
 Si desea generar la documentación nuevamente, solo deberá escribir el siguiente comando desde la consola cmd:
 

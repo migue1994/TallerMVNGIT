@@ -1,5 +1,8 @@
 package edu.escuelaing.arem.ASE.app;
 
+import edu.escuelaing.arem.ASE.app.Entities.LinkedList;
+import edu.escuelaing.arem.ASE.app.Entities.Program;
+
 /**
  * CLase principal del proyecto
  * 

@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ASE.app.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

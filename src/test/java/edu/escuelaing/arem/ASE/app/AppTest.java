@@ -4,15 +4,14 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import edu.escuelaing.arem.ASE.app.Entities.LinkedList;
+import edu.escuelaing.arem.ASE.app.Entities.Program;
+
 /**
  * Unit test for simple App.
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
-
      private Program programa = new Program();
 
     @Test

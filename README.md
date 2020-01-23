@@ -52,7 +52,7 @@ Considero que estas pruebas son suficientes, ya que la ejecución de cada una us
 
 # Documentación
 
-La documentación del proyecto la encontrará [aquí](target/site/apidocs/allclasses-frame.html).
+La documentación del proyecto la encontrará [aquí](target/site/apidocs). Para poder abrirla, debe hacerlo desde el repositorio local del proyecto e ir a la siguiente dirección `target\site\apidocs\allclasses-frame.html`
 
 Si desea generar la documentación nuevamente, solo deberá escribir el siguiente comando desde la consola cmd:
 

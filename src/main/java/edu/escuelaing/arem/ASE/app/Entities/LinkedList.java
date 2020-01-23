@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.ASE.app;
+package edu.escuelaing.arem.ASE.app.Entities;
 
 import java.util.Collection;
 import java.util.Iterator;
